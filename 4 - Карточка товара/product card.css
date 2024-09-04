@@ -1,0 +1,328 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    position: relative;
+    margin: auto;
+    height: auto;
+    background: #f8f8f6;
+  }
+  .header {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 21px;
+  }
+  .header .box-header {
+    display: flex;
+    height: inherit;
+    align-items: center;
+  }
+  .header .box-header .header-link {
+    text-decoration: none;
+    font: 400 16px "Mplus 1p";
+    line-height: normal;
+    color: #122947;
+    margin-left: 35px;
+  }
+  .header .box-header #icon-1 {
+    margin-left: 50px;
+  }
+  .header .box-header #icon-2 {
+    margin-left: 30px;
+  }
+  .hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    color: transparent;
+    background-color: transparent;
+    height: 0;
+    border-bottom: 1px solid #DBDCE0;
+  }
+  .question {
+    cursor: pointer;
+    padding: 18px 0 20px 0;
+    border-bottom: 1px solid #B3BAC1;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 26.1px */
+  }
+  .up-5px {
+    margin-bottom: 4px;
+  }
+  .question span {
+    float: right;
+    align-items: center;
+  }
+  .content {
+    margin-top: 20px;
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 20.3px */
+    display: none;
+  }
+  .main {
+    position: relative;
+    margin: auto;
+    max-width: 1070px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .main .box-right {
+    margin: auto;
+    margin-top: 0;
+    max-width: 370px;
+  }
+  .main .box-right #grey-hr {
+    padding-bottom: 45px;
+    border-bottom: 1px solid #B3BAC1;
+  }
+  .main .box-right h1 {
+    color: #122947;
+    font-family: "Raleway";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 40px */
+  }
+  .main .box-right #p-grey {
+    padding-bottom: 45px;
+    color: #9A9DA0;
+    font-family: "Mplus 1p";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 23.2px */
+  }
+  .main .box-right .p-1 {
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 23.2px */
+  }
+  /*_стиль_кнопки____________________________________________________________________________________________________________________________________________________________________________________________________________ */
+  label {
+    margin-left: 15px;
+    color: #CDCDCD;
+  }
+  .checkbox-circle input[type=checkbox] {
+    display: none;
+  }
+  .checkbox-circle input[type=checkbox] + label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 26.1px */
+    cursor: pointer;
+  }
+  .checkbox-circle input[type=checkbox]:hover + label:hover {
+    color: #122947;
+  }
+  .checkbox-circle input[type=checkbox]:hover + label:before {
+    border: 2px solid #ffffff;
+    width: 14px;
+    height: 14px;
+    background: #4b596c;
+    box-shadow: 0 0 0 1px #CDCDCD;
+  }
+  .checkbox-circle input[type=checkbox] + label:last-child {
+    margin-bottom: 0;
+  }
+  .checkbox-circle input[type=checkbox] + label:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #CDCDCD;
+    border-radius: 1em;
+    position: absolute;
+    left: 2px;
+    top: 5px;
+    transition: all 0.2s, transform 0.3s ease-in-out;
+    background: transparent;
+  }
+  .checkbox-circle input[type=checkbox]:checked + label:before {
+    border-radius: 1em;
+    border: 2px solid white;
+    width: 14px;
+    height: 14px;
+    background: #122947;
+    box-shadow: 0 0 0 1px #CDCDCD;
+    transform: rotateX(180deg);
+  }
+  .checkbox-circle input:checked + label {
+    color: #122947;
+  }
+  .button-form {
+    margin-top: 25px;
+    font: 16px 500 "Mplus 1p";
+    color: #122947;
+    width: 141px;
+    height: 41px;
+    border-radius: 2px;
+    border: 1px solid #B3BAC1;
+    background-color: transparent;
+  }
+  .button-form:hover {
+    border: 1px solid #122947;
+    transition: all 0.2s, transform 0.3s ease-in-out;
+  }
+  .button-form:focus {
+    border: 1px solid #122947;
+  }
+  .box {
+    margin: auto;
+    margin-top: 45px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+  }
+  .box .katalog-p {
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 26.1px */
+  }
+  #yahzushe {
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 37.7px */
+  }
+  .catalog-button {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: start;
+  }
+  #button-right {
+    margin-left: 50px;
+    margin-top: 0;
+    width: 214px;
+    color: #122947;
+    font-family: "Mplus 1p";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+  }
+  .foother {
+    margin: auto;
+    width: 100%;
+    background-color: #DDD9D1;
+  }
+  .foother .footh-nav {
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  #footh-ico {
+    margin-left: 30px;
+  }
+  #footh-link-one {
+    margin-left: 70px;
+  }
+  #footh-link {
+    margin-left: 40px;
+  }
+}
+/* ____________________________________________________________________________________________________________________________________________________________________________________________________________ */
+@media (min-width: 321px) and (max-width: 767px) {
+  body {
+    position: relative;
+    margin: auto;
+    height: auto;
+    max-width: 768px;
+    background: #f8f8f6;
+  }
+}
+/* ____________________________________________________________________________________________________________________________________________________________________________________________________________ */
+@media (max-width: 320px) {
+  body {
+    position: relative;
+    margin: auto;
+    height: auto;
+    max-width: 320px;
+    background: #f8f8f6;
+  }
+}/*# sourceMappingURL=product card.css.map */

@@ -1,0 +1,436 @@
+@charset "UTF-8";
+.sect6 .sect6-div .sect-btn, .sect5-div-right .sect5-btn, .sect4 .sect4-div .sect4-btn, .sect3 .sect3-div .sect-btn, .sect2 .sect2-div .sect-btn, .section .sect-div-left .sect-btn, .main-div .main-div-center .main-btn {
+  border: 1px solid #B3BAC1;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #122947;
+  font: 500 16px "Mplus 1p";
+}
+
+.sect6, .sect5, .sect3, .nav {
+  margin: auto;
+  height: 21px;
+  width: 1170px;
+}
+
+.sect4, .sect2 {
+  margin: auto;
+  margin-top: 140px;
+  max-width: 1366px;
+}
+
+body {
+  position: relative;
+  background-color: #F8F8F6;
+  height: auto;
+  margin: auto;
+}
+
+.nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav-div {
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+/* Шрифт навигации */
+.nav-a {
+  text-decoration: none;
+  font: 400 16px "Mplus 1p";
+  color: #122947;
+  margin-left: 35px;
+}
+
+.nav-a-2 {
+  text-decoration: none;
+  margin-left: 51px;
+}
+
+.nav-a-3 {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+/* main блок */
+.main-div {
+  margin: auto;
+  max-width: 1030px;
+  margin-top: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.main-div .main-div-left {
+  display: flex;
+  flex-flow: column;
+  width: 330px;
+}
+.main-div .main-div-left .main-div-a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+.main-div .main-div-left .main-div-a .main-p2 {
+  text-decoration: none;
+  font: 500 16px "Mplus 1p";
+  color: #122947;
+}
+.main-div .main-div-center {
+  display: flex;
+  flex-flow: column;
+  width: 330px;
+  align-items: center;
+}
+.main-div .main-div-center .main-h1 {
+  font: 500 58px Raleway;
+  text-align: center;
+  margin: 0;
+  margin-top: 87px;
+}
+.main-div .main-div-center .main-p {
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  font: 400 18p "Mplus 1p";
+}
+.main-div .main-div-center .main-btn {
+  margin-top: 40px;
+  width: 141px;
+  height: 41px;
+}
+.main-div .main-div-right {
+  display: flex;
+  flex-flow: column;
+  width: 330px;
+}
+.main-div .main-div-right .main-div-a {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-div .main-div-right .main-div-a .main-p2 {
+  text-decoration: none;
+  font: 500 16px "Mplus 1p";
+  color: #122947;
+}
+.main-div .main-div-right .main-div-a .main-a2 {
+  text-decoration: none;
+  font: 500 16px "Mplus 1p";
+  color: #122947;
+}
+
+.section {
+  margin: auto;
+  margin-top: 140px;
+  max-width: 1310px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.section .sect-div-left {
+  max-width: 214px;
+  display: flex;
+  flex-flow: column;
+}
+.section .sect-div-left .sect-h2 {
+  font: 500 32px "Raleway";
+  color: #122947;
+}
+.section .sect-div-left .sect-p {
+  margin: 0;
+  font: 400 18px "Mplus 1p";
+  color: #122947;
+  line-height: 145%;
+}
+.section .sect-div-left .sect-btn {
+  margin-top: 40px;
+  height: 41px;
+  width: 155px;
+}
+.section .sect-div-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 1010px;
+}
+.section .sect-div-right .sect-div-container {
+  position: relative;
+  text-align: center;
+}
+.section .sect-div-right .sect-div-container .div-box-product {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section .sect-div-right .sect-div-container .div-box-product .p-product {
+  font: 500 16px "Raleway";
+  color: #122947;
+  margin: 0;
+}
+.section .sect-div-right .sect-div-container .div-box-product .p-description {
+  font: 400 13px "Mplus 1p";
+  color: #9A9DA0;
+  margin-top: 0;
+}
+.section .sect-div-right .sect-div-container .div-box-product .a-product {
+  text-decoration: none;
+  border-bottom: 1px #122947 solid;
+  font: 400 13px "Mplus 1p";
+  color: #122947;
+}
+
+.sect-div-bottom {
+  margin: auto;
+  max-width: 1310px;
+  display: flex;
+  justify-content: end;
+  margin-top: 25px;
+}
+.sect-div-bottom .sect-div-bottom-a {
+  margin-left: 25px;
+}
+
+.sect2 {
+  position: relative;
+  text-align: center;
+}
+.sect2 .sect2-div {
+  position: absolute;
+  top: 0;
+  margin-left: 798px;
+  text-align: left;
+}
+.sect2 .sect2-div .sect2-h2 {
+  margin: 0;
+  margin-top: 81px;
+  font: 500 32px "Raleway";
+  color: #122947;
+}
+.sect2 .sect2-div .sect2-p {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font: 400 18px "Mplus 1p";
+  color: #122947;
+  line-height: 145%;
+}
+.sect2 .sect2-div .sect-btn {
+  width: 141px;
+  height: 41px;
+}
+
+.sect3 {
+  margin-top: 140px;
+  display: flex;
+  flex-flow: row nowrap;
+  height: auto;
+}
+.sect3 .sect3-div {
+  position: relative;
+  border: 1px solid #DDD9D1;
+  background-color: #DDD9D1;
+  height: 583px;
+  width: 670px;
+  z-index: auto;
+}
+.sect3 .sect3-div .sect3-h3 {
+  margin: 100px 0 0 100px;
+  font: 500 32px "Raleway";
+  color: #122947;
+}
+.sect3 .sect3-div .sect3-p {
+  margin: 40px 0 45px 100px;
+  font: 400 18px "Mplus 1p";
+  color: #122947;
+  line-height: 145%;
+}
+.sect3 .sect3-div .sect-btn {
+  margin-left: 100px;
+  width: 200px;
+}
+.sect3 .sect3-img {
+  position: absolute;
+  margin-left: 500px;
+  z-index: 1;
+  margin-top: 66px;
+  margin-bottom: 140px;
+  overflow: hidden;
+  width: 670px;
+  height: 451px;
+}
+.sect3 .sect3-img .sect3-img2 {
+  display: block;
+  margin: 0 auto;
+  width: 670px;
+}
+
+.sect4 {
+  position: relative;
+  text-align: center;
+}
+.sect4 .sect4-img {
+  width: 1366px;
+}
+.sect4 .sect4-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sect4 .sect4-div .sect4-h4 {
+  font: 500 32px "Raleway";
+  color: #122947;
+  line-height: 125%;
+  margin-bottom: 41px;
+  width: 1366px;
+}
+.sect4 .sect4-div .sect4-btn {
+  width: 163px;
+  height: 41px;
+}
+
+.sect5 {
+  margin-top: 140px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: auto;
+}
+.sect5 .sect5-div-left {
+  display: flex;
+  flex-flow: row;
+  max-width: 700px;
+}
+.sect5 .sect5-div-left .sect5-div-box {
+  position: relative;
+  overflow: hidden;
+  width: 233px;
+  height: 233px;
+}
+.sect5 .sect5-div-left .sect5-div-box .sect5-left-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+}
+
+.sect5-div-right {
+  text-align: left;
+}
+.sect5-div-right .sect5-h5 {
+  margin: 147px 15px 0 0;
+  font: 500 32px "Raleway";
+  color: #122947;
+}
+.sect5-div-right .sect5-p {
+  margin: 15px 15px 40px 0;
+  font: 400 18px "Mplus 1p";
+  color: #122947;
+  line-height: 145%;
+}
+.sect5-div-right .sect5-btn {
+  width: 170px;
+  height: 41px;
+}
+
+.sect6 {
+  margin-top: 140px;
+  display: flex;
+  flex-flow: row nowrap;
+  height: auto;
+}
+.sect6 .sect6-div {
+  position: relative;
+  border: 1px solid #DDD9D1;
+  background-color: #DDD9D1;
+  height: 554px;
+  width: 670px;
+  z-index: auto;
+  height: auto;
+}
+.sect6 .sect6-div .sect6-h5 {
+  margin: 100px 0 0 100px;
+  font: 500 32px "Raleway";
+  color: #122947;
+}
+.sect6 .sect6-div .sect6-p {
+  margin: 40px 0 45px 100px;
+  font: 400 18px "Mplus 1p";
+  color: #122947;
+  line-height: 145%;
+}
+.sect6 .sect6-div .sect-btn {
+  margin-left: 100px;
+  width: 200px;
+}
+.sect6 .sect6-img {
+  position: absolute;
+  margin-left: 500px;
+  z-index: 1;
+  margin-top: 66px;
+  margin-bottom: 140px;
+  overflow: hidden;
+  width: 670px;
+  height: 451px;
+}
+.sect6 .sect6-img .sect6-img2 {
+  display: block;
+  margin: 0 auto;
+  width: 670px;
+}
+
+.foother {
+  display: block;
+  border: 1px solid #DDD9D1;
+  background-color: #DDD9D1;
+  height: 195px;
+  margin-top: 140px;
+  width: 100%;
+}
+.foother .footh {
+  margin: auto;
+  height: 21px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  max-width: 1170px;
+}
+.foother .footh .footh-div-left {
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.foother .footh .footh-div-left #footh-object {
+  margin-left: 69px;
+}
+.foother .footh .footh-div-right {
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.foother .footh .footh-div-right .nav-b {
+  margin-left: 30px;
+}
+.foother .footh-hr {
+  margin-top: 60px;
+  color: #D1D1D1;
+}
+.foother .footh-end {
+  margin: 0;
+  font: 400 12px "Mplus 1p";
+  color: #959595;
+}/*# sourceMappingURL=main page.css.map */

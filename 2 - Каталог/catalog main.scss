@@ -1,0 +1,273 @@
+%btn-style {
+  border: 1px solid #B3BAC1;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #122947;
+  font: 500 16px 'Mplus 1p';
+}
+
+%width-1170px {
+  margin: auto;
+  height: 21px;
+  width: 1170px;
+}
+
+%width-1366px {
+  margin: auto;
+  margin-top: 140px;
+  max-width: 1366px;
+}
+
+// katalog_______________________________________________________________________________________________________________________________________
+
+%a-style {
+  font: 16px 500 'Raleway';
+  color: #122947;
+  text-decoration: none;
+  line-height: 145%;
+}
+
+%p-style {
+  font: 13px 500 'Mplus 1p';
+  color: #122947;
+  line-height: 145%;
+}
+
+%p-style-2 {
+  font: 13px 500 'Mplus 1p';
+  color: #9A9DA0;
+  line-height: 145%;
+}
+
+// @media (min-width: 768px) {
+
+.body-2 {
+  position: relative;
+  background-color: #F8F8F6;
+  height: auto;
+  margin: auto;
+}
+
+.nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  @extend %width-1170px;
+  .nav-div {
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+}
+
+/* Шрифт навигации */
+.nav-a {
+  text-decoration: none;
+  font: 400 16px 'Mplus 1p';
+  color: #122947;
+  margin-left: 35px;
+}
+
+.nav-a-2 {
+  text-decoration: none;
+  margin-left: 51px;
+}
+
+.nav-a-3 {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.hr {
+  margin-top: 40px;
+  border: 1px solid #D1D1D1;
+}
+
+.box-katalog {
+  position: relative;
+  margin: auto;
+  height: auto;
+  max-width: 1170px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 130px;
+  #pic2 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/58e48ece1a6bbf4e87dfe8aa58254a7f8b4ca2c2);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic3 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/74c59f3b1752eb117aab6944bd8f50f5956343d9);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic4 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/51df3fe6f2b6c7383e64940d6fdd415ce9fbb3dc);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic5 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/1928c77de65c79848a14dd30e3930eb9db4f6a5e);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic6 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/a432d80a5d25ac511f0144637482c081f7e659c1);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic7 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/d93d5af7e041dae6ffb7b3c0253bc429b6e36783);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic8 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/aaf0223d32704ccb6e6099dd96659fe079549975);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic9 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/ca074d586dbb9dacbf20dc8d1e3b98fb4d3984f6);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic10 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/c810090d04c0916abe1fbbb4078a5f66cc83fffa);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic11 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/900f7392496bb8b2d3594e7f3389e099ebe57508);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+  #pic12 {
+    background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/199e5b793a9f908ca6f6b5b11b102b84f72c15ec);
+    background-position: center center;
+    background-size: 270px 350px;
+  }
+
+}
+#box-katalog-2 {
+  margin-top: 30px;
+}
+
+.box-tovar {
+  width: 270px;
+  height: 350px;
+  display: flex;
+  flex-flow: column;
+  background-image: url(https://www.figma.com/file/feX3XtKINDYfNqgadqspzX/image/25d77a9472473e754c8b8bac0935ca457a75addf);
+  background-position: center center;
+  background-size: 270px 350px;
+  .tovar-a {
+    @extend %a-style;
+  }
+  .tovar-p {
+    @extend %p-style;
+  }
+  .tovar-p-2 {
+    @extend %p-style-2;
+  }
+}
+.box-text {
+  margin-bottom: auto;
+}
+.box-symbol {
+  max-height: 12px;
+  align-items: center;
+  display: flex;  
+  justify-content: space-between;
+  margin: 0 20px 10px 20px;
+}
+.box-symbol-2 {
+  max-height: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 20px 20px;
+}
+.box-symbol-blya {
+  height: inherit;
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sect-strelki {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  max-width: 1170px;
+  .div-page {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 92px;
+    .strelki-p {
+      margin: 0;
+      font: 18px 500 'Mplus 1p';
+      color: #122947;
+      margin-right: 10px;
+    }
+    .hr-hz {
+      width: 50px;
+      color: #122947;
+    }
+    .strelki-p-2 {
+      margin: 0;
+      color: #9A9DA0;
+      margin-left: 10px;
+    }
+  }
+  .div-go-back {
+    right: 0;
+    width: 84px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.sect-2 {
+  text-align: center;
+  margin-top: 145px;
+  .sect-h1 {
+    font: 32px 500 'Raleway';
+    color: #122947;
+    line-height: 125%;
+  }
+}
+
+#box-katalog-3 {
+  margin-top: 60px;
+}
+
+// }
+
+  /* ____________________________________________________________________________________________________________________________________________________________________________________________________________ */
+
+  @media (min-width: 321px) and (max-width: 767px) {
+    body {
+    position: relative;
+    margin: auto;
+    height: auto;
+    max-width: 768px;
+    }
+}
+
+/* ____________________________________________________________________________________________________________________________________________________________________________________________________________ */
+
+@media (max-width: 320px) {
+    body {
+    position: relative;
+    margin: auto;
+    height: auto;
+    max-width: 320px;
+    }
+}
